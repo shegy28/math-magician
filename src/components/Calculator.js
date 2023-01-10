@@ -39,7 +39,7 @@ class Calculator extends React.Component {
         <div className="zero">
           <button type="button" className="o">0</button>
           <button type="button" className="zb">.</button>
-          <button type="button" className="zb">=</button>
+          <button type="button" className="zb act">=</button>
         </div>
 
       </div>
