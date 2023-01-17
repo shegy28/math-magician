@@ -6,7 +6,6 @@ import Home from './components/Home';
 import Nav from './components/Navbar';
 import Quote from './components/Quote';
 
-
 class App extends React.Component {
   constructor(props) {
     super(props);
