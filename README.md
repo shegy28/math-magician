@@ -35,6 +35,7 @@
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
+
   <summary>REACT</summary>
   <ul>
     <li><a href="https://reactjs.org/">React.js</a></li>
@@ -43,11 +44,14 @@
 
 <!-- Features -->
 
+
+
+
 ### Key Features <a name="key-features"></a>
 
-- **Responsive for both Desktop and Mobile**
-- **List Section created dynamically**
-- **Designed with webpack**
+- **Used React Router for navigation**
+- **Designed with React**
+- **Calculates Simple Arithmetics**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -57,7 +61,9 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](#)
+ ```sh
+  Coming soon ...
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -68,9 +74,12 @@
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
+```sh
 
--Code Editor:[visual Studio code](https://code.visualstudio.com/)
--Web Browser
+ -Visual Studio code
+
+ -Web Browser
+```
 
 <!--
 Example command:
@@ -88,7 +97,7 @@ Clone this repository to your desired folder:
   cd my-folder
   git clone https://github.com/shegy28/math-magician.git
 ```
-### Run On local machine
+### Install
 
 To run on local machine, open your terminal and run the following:
 
@@ -96,6 +105,22 @@ To run on local machine, open your terminal and run the following:
   npm install
   npm run build 
   npm start
+```
+### Usage
+
+To following are what the web-app is used for:
+
+```sh
+  Calculate simple arithmetics
+  When forked you can see how React Router used 
+  Shows a simple web app bulid with React
+```
+### Deployment
+
+This project would be deployed using github pages:
+
+```sh
+  Coming soon ...
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

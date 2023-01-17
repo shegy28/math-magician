@@ -12,46 +12,51 @@ const Calculator = () => {
   };
 
   return (
-    <div className="calculator">
-      <div className="result">
-        <span>
-          {total}
-          {' '}
-          {operation}
-          {' '}
-          {next}
-        </span>
+    <div className="calc-container">
+      <div className="calc-text">
+        <h2>Let&apos;s Do Some Maths</h2>
       </div>
-      <div className="num">
-        <button type="button" onClick={btnClicked}>AC</button>
-        <button type="button" onClick={btnClicked}>+/-</button>
-        <button type="button" onClick={btnClicked}>%</button>
-        <button type="button" className="act" onClick={btnClicked}>÷</button>
-      </div>
-      <div className="num">
-        <button type="button" onClick={btnClicked}>7</button>
-        <button type="button" onClick={btnClicked}>8</button>
-        <button type="button" onClick={btnClicked}>9</button>
-        <button type="button" className="act" onClick={btnClicked}>x</button>
-      </div>
-      <div className="num">
-        <button type="button" onClick={btnClicked}>6</button>
-        <button type="button" onClick={btnClicked}>5</button>
-        <button type="button" onClick={btnClicked}>4</button>
-        <button type="button" className="act" onClick={btnClicked}>-</button>
-      </div>
-      <div className="num">
-        <button type="button" onClick={btnClicked}>3</button>
-        <button type="button" onClick={btnClicked}>2</button>
-        <button type="button" onClick={btnClicked}>1</button>
-        <button type="button" className="act" onClick={btnClicked}>+</button>
-      </div>
-      <div className="zero">
-        <button type="button" className="o" onClick={btnClicked}>0</button>
-        <button type="button" className="zb" onClick={btnClicked}>.</button>
-        <button type="button" className="zb act" onClick={btnClicked}>=</button>
-      </div>
+      <div className="calculator">
+        <div className="result">
+          <span>
+            {total}
+            {' '}
+            {operation}
+            {' '}
+            {next}
+          </span>
+        </div>
+        <div className="num">
+          <button type="button" onClick={btnClicked}>AC</button>
+          <button type="button" onClick={btnClicked}>+/-</button>
+          <button type="button" onClick={btnClicked}>%</button>
+          <button type="button" className="act" onClick={btnClicked}>÷</button>
+        </div>
+        <div className="num">
+          <button type="button" onClick={btnClicked}>7</button>
+          <button type="button" onClick={btnClicked}>8</button>
+          <button type="button" onClick={btnClicked}>9</button>
+          <button type="button" className="act" onClick={btnClicked}>x</button>
+        </div>
+        <div className="num">
+          <button type="button" onClick={btnClicked}>6</button>
+          <button type="button" onClick={btnClicked}>5</button>
+          <button type="button" onClick={btnClicked}>4</button>
+          <button type="button" className="act" onClick={btnClicked}>-</button>
+        </div>
+        <div className="num">
+          <button type="button" onClick={btnClicked}>3</button>
+          <button type="button" onClick={btnClicked}>2</button>
+          <button type="button" onClick={btnClicked}>1</button>
+          <button type="button" className="act" onClick={btnClicked}>+</button>
+        </div>
+        <div className="zero">
+          <button type="button" className="o" onClick={btnClicked}>0</button>
+          <button type="button" className="zb" onClick={btnClicked}>.</button>
+          <button type="button" className="zb act" onClick={btnClicked}>=</button>
+        </div>
 
+      </div>
     </div>
   );
 };

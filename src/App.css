@@ -7,6 +7,7 @@
 }
 
 .calculator {
+  margin: 30px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -70,4 +71,56 @@ span {
   width: 50%;
   padding: 4% 1%;
   font-size: 10px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Heading {
+  padding-left: 5%;
+}
+
+.nav-links {
+  display: flex;
+  width: 60%;
+  gap: 10px;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 5%;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: large;
+  border-right: solid black 1px;
+  padding-right: 10px;
+  font-weight: 900;
+}
+
+.nav-links a:last-child {
+  border: none;
+}
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0 10%;
+}
+
+.calc-container {
+  display: flex;
+}
+
+.calc-text {
+  width: 40%;
+  padding-left: 10%;
+}
+
+.quotes {
+  font-size: large;
+  font-weight: 600;
+  margin: 10% 100px 0 100px;
 }
