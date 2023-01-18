@@ -6,7 +6,7 @@ import '@testing-library/jest-dom';
 
 test('renders Welcome to our page!', () => {
   render(<Home />);
-  const linkElement = screen.getByText(/Welcome to our page!/i);
+  const linkElement = screen.getByText(/Welcome to our Home page!/i);
   expect(linkElement).toBeInTheDocument();
 });
 
