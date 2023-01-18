@@ -3,7 +3,6 @@
 exports[`expect home component to match snapshot 1`] = `
 <div
   className="calc-container"
-  role="Calculate"
 >
   <div
     className="calc-text"

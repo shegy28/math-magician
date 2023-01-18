@@ -9,9 +9,9 @@ test('expect home component to match snapshot', () => {
   expect(view).toMatchSnapshot();
 });
 
-test('Checks a calculate role', () => {
+test('renders Lets Do Some Math', () => {
   render(<Calculator />);
-  const linkElement = screen.getByRole('Calculate');
+  const linkElement = screen.getByText(/Let's Do Some Maths/i);
   expect(linkElement).toBeInTheDocument();
 });
 
