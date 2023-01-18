@@ -3,7 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Nav = () => (
-  <header className="nav-bar">
+  <header className="nav-bar" title="navigator">
     <h1 className="Heading"> Math Magicians </h1>
     <nav className="nav-links">
       <Link to="/">Home</Link>
