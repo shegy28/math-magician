@@ -61,9 +61,7 @@
 
 > Add a link to your deployed project.
 
- ```sh
-  Coming soon ...
-```
+ [Live Demo Link](https://math-magician-cobe.onrender.com/calculator)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -120,7 +118,7 @@ To following are what the web-app is used for:
 This project would be deployed using github pages:
 
 ```sh
-  Coming soon ...
+  Deployed on Cloud via Render.com
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
