@@ -134,6 +134,11 @@ This project would be deployed using github pages:
 - Twitter: [@Shegy28](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/chimezie-asouzu-67704224a/)
 
+👤 **Richard O.I**
+
+- GitHub: [@githubhandle](https://github.com/XRichardroidX)
+- Twitter: [@twitterhandle](https://twitter.com/RichardroiDX)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/richard-oguzie-ibeh-b4a975231/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
