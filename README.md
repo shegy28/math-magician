@@ -61,9 +61,7 @@
 
 > Add a link to your deployed project.
 
- ```sh
-  Coming soon ...
-```
+ [Live Demo Link](https://math-magician-cobe.onrender.com/calculator)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
